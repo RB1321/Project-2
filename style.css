@@ -1,0 +1,205 @@
+header {
+  width: 100%;
+}
+header .container {
+  width: 100%;
+  background-color: #0C4B35;
+  height: 55px;
+}
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 15px;
+}
+header .contacts a {
+  margin-right: 20px;
+}
+header .language {
+  display: flex;
+  flex-direction: row-reverse;
+}
+header .language a > img {
+  margin-left: 5px;
+}
+header .language a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  line-height: 16px;
+}
+header .language a:hover img {
+  transform: rotate(180deg);
+}
+
+.navbar {
+  position: relative;
+}
+.navbar .container {
+  width: 100%;
+  background-color: white;
+  height: 70px;
+}
+.navbar .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.navbar .col-xs-3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navbar .menu-cancel {
+  position: relative;
+}
+.navbar .menu-cancel .cancel-button {
+  position: absolute;
+  right: 0px;
+  bottom: -12px;
+  display: none;
+}
+.navbar .menu-cancel:hover > .cancel-button {
+  display: block;
+}
+.navbar .menu-cancel:hover > .menu-button {
+  display: none;
+}
+.navbar nav {
+  position: absolute;
+  width: 100%;
+  background-color: #0C4B35;
+  top: 70px;
+  right: 0px;
+}
+.navbar nav .menu {
+  margin: 10px 15px 15px 25px;
+  line-height: 22px;
+}
+.navbar nav .menu > li {
+  padding: 15px 0px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.navbar nav .menu > li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+.navbar nav .menu > li:hover img {
+  transform: rotate(180deg);
+}
+.navbar nav .menu > li > a:hover {
+  opacity: 1;
+}
+.navbar nav .menu > li:hover .submenu {
+  display: block;
+}
+.navbar nav .menu .submenu {
+  padding-left: 20px;
+  display: none;
+}
+.navbar nav .menu .submenu > li {
+  padding: 5px 0 5px;
+}
+
+main {
+  background-color: rgb(158, 206, 158);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+}
+
+[class*=regular-] {
+  font-weight: 400;
+}
+
+[class*=semi-] {
+  font-weight: 600;
+}
+
+[class*=bold-] {
+  font-weight: 700;
+}
+
+[class*=extra-] {
+  font-weight: 800;
+}
+
+[class*="-32px"] {
+  font-size: 32px;
+}
+
+[class*="-28px"] {
+  font-size: 28px;
+}
+
+[class*="-22px"] {
+  font-size: 22px;
+}
+
+[class*="-20px"] {
+  font-size: 20px;
+}
+
+[class*="-18px"] {
+  font-size: 18px;
+}
+
+[class*="-16px"] {
+  font-size: 16px;
+}
+
+[class*="-14px"] {
+  font-size: 14px;
+}
+
+[class*="-12px"] {
+  font-size: 12px;
+}
+
+[class*="-10px"] {
+  font-size: 10px;
+}
+
+.col-xs-1 {
+  width: 8, 3333%;
+  flex: 0 0 8, 3333%;
+}
+
+.col-xs-2 {
+  width: 16, 66666%;
+  flex: 0 0 16, 66666%;
+}
+
+.col-xs-3 {
+  width: 25%;
+  flex: 0 0 25%;
+}
+
+.col-xs-4 {
+  width: 33, 333333%;
+  flex: 0 0 33, 333333%;
+}
+
+.col-xs-6 {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+.col-xs-8 {
+  width: 66, 666666%;
+  flex: 0 0 66, 66666%;
+}
+
+.col-xs-9 {
+  width: 75%;
+  flex: 0 0 75%;
+}
+
+.col-xs-12 {
+  width: 100%;
+  flex: 0 0 100%;
+}/*# sourceMappingURL=style.css.map */

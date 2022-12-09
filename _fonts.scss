@@ -1,0 +1,43 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+[class*='regular-'] {
+    font-weight: 400;
+}
+[class*='semi-'] {
+    font-weight: 600;
+}
+[class*='bold-'] {
+    font-weight: 700;
+}
+[class*='extra-'] {
+    font-weight: 800;
+}
+[class*='-32px'] {
+    font-size: 32px;
+}
+[class*='-28px'] {
+    font-size: 28px;
+}
+[class*='-22px'] {
+    font-size: 22px;
+}
+[class*='-20px'] {
+    font-size: 20px;
+}
+[class*='-18px'] {
+    font-size: 18px;
+}
+[class*='-16px'] {
+    font-size: 16px;
+}
+[class*='-14px'] {
+    font-size: 14px;
+}
+[class*='-12px'] {
+    font-size: 12px;
+}
+[class*='-10px'] {
+    font-size: 10px;
+}
