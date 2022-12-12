@@ -1,5 +1,7 @@
 .navbar {
     position: relative;
+    display: flex;
+    justify-content: center;
     .container {
             width: 100%;
             background-color: white;
@@ -13,14 +15,34 @@
     }
     .col-xs-3 {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
-    .menu-cancel {
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .call-button {
+        margin-right: 40px;
+        .call {
+            text-decoration: none;
+            color: white;
+            .call-div {
+                display: flex;
+                align-items: center;
+                background-color: $green-color;
+                border-radius: 10px;
+                .call-div-text {
+                    display: none;
+                }
+            }
+        }
+    }
+    .menu-cancel-button {
         position: relative;
         .cancel-button {
             position: absolute;
             right: 0px;
-            bottom: -12px;
+            bottom: 7px;
             display: none;
         }
     }
@@ -70,4 +92,29 @@
         }
         
     }        
+}
+
+
+@media (min-width: 768px) {
+    .navbar {
+        .call-button {
+                margin-right: 40px;        
+                .call {
+                    .call-div {
+                        padding: 0 20px 0 10px;
+                        .call-div-text {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+    }
+}
+@media (min-width: 1440px) {
+    .navbar {
+            .container {
+                width: 1440px;
+            }
+        }
 }

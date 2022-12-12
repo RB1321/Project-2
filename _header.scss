@@ -1,9 +1,13 @@
 header {
     width: 100%;
+    background-color: $main-color;
+    display: flex;
+      justify-content: center;
     .container {
             width: 100%;
             background-color: $main-color;
             height: 55px;
+            
         }
     
         .row {
@@ -15,8 +19,19 @@ header {
         }
     
         .contacts {
+          display: flex;
             a {
-                margin-right: 20px;
+              color: white;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+              margin-right: 20px;
+              .contacts-text {
+                margin-left: 10px;
+                display: none;
+                font-size: 9px;
+                font-weight: 400;
+              }
             }
         }
     
@@ -39,4 +54,25 @@ header {
                 transform: rotate(180deg);
             }
         }
+}
+
+
+@media (min-width: 768px) {
+  header {
+    .contacts {
+    a {
+      margin-right: 20px;
+      .contacts-text {
+        display: block;
+      }
+    }
+  }
+  }
+}
+@media (min-width: 1440px) {
+    header {
+        .container {
+                width: 1440px;
+            }
+    }
 }
