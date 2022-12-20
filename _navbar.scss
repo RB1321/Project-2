@@ -53,6 +53,7 @@
         display: none;
     }
     nav {
+        display: none;
         position: absolute;
         width: 100%;
         background-color: $main-color;
@@ -115,6 +116,59 @@
     .navbar {
             .container {
                 width: 1440px;
+            }
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+            }
+            nav {
+                display: block;
+                position: static;
+                width: 50%;
+                background-color: white;
+                .menu {
+                    margin: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 100%;
+                    >li {
+                        padding: 0;
+                        border-bottom: none;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        a {
+                            color: #212529;
+                            margin-right: 5px;
+                        }
+                    }
+                    >li:hover img {
+                        // transform: rotate(180deg);
+                    }
+                    >li>a:hover {
+                        color:  $green-color;
+                    }
+                    >li:hover .submenu {
+                        // display: block;
+                    }
+
+                    .submenu {
+                        width: 100px;
+                        position: absolute;
+                        top: 33px;
+                        background-color: $green-color;
+                        padding: 0;
+                        // display: none;
+                        >li {
+                            padding: 5px;
+                            color: $green-color;
+                            a {
+                                display: block;
+                                color: white;
+                            }
+                        }
+                    }
+                }
             }
         }
 }
