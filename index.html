@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.2/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -123,7 +125,7 @@
                     </nav>
                     <div class="call-button">
                         <a class="call" href="">
-                            <div class="call-div">
+                            <div class="call-div btn-hoverefect">
                                 <img src="./images/navbar/Call Button.png" alt="">
                                 <span class="call-div-text">Call us</span>
                             </div>
@@ -144,7 +146,7 @@
             <div class="container">
                 <div class="row">
                     <figure class="introduction-image col-xs-12 col-md-6 col-lg-6">
-                        <span class="introduction-image-text">375 x 240</span>
+                        <span class="introduction-image-text"></span>
                     </figure>
                     <article class="introduction-article col-xs-12 col-md-6 col-lg-6">
                         <div class="introduction-article-content">
@@ -530,7 +532,7 @@
                                     </button>
                                 </li>
                             </ul>
-                            <button class="aboutUs-content-discoverMore">
+                            <button class="aboutUs-content-discoverMore btn-hoverefect">
                                 Discover More
                             </button>
                         </div>
@@ -572,7 +574,7 @@
                                 Home Gardening
                             </li>
                         </ul>
-                        <button class="whyChooseUs-content-discoverMore">
+                        <button class="whyChooseUs-content-discoverMore btn-hoverefect">
                             Discover More
                         </button>
                     </section>
@@ -650,9 +652,532 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
+        <section class="our-trained-staff">
+            <div class="container">
+                <div class="row">
+                    <h2 class="our-trained-staff-title col-lg-12">Our <span>Trained Staff</span></h2>
+                    <p class="our-trained-staff-text col-lg-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum vel vero, unde, ratione fugit obcaecati minima distinctio accusamus rem laboriosam tempora similique quisquam, in repudiandae qui laborum. Dignissimos, quos fugit?</p>
+                    <div class = 'our-trained-staff-btn col-lg-3'>
+                        <button class=" btn-hoverefect">Discover more</button>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <section class="our-trained-staff-member">
+                            <div class="our-trained-staff-member-photo"></div>
+                            <div class="our-trained-staff-member-name">
+                                <span class="name">Doris Jordan</span>
+                                <span class="position">Design Expert</span>
+                                <div class="links">
+                                    <div class='google link'><a href="#"></a></div>
+                                    <div class='fb link'><a href="#"></a></div>
+                                    <div class='twitter link'><a href="#"></a></div>
+                                    <div class='pinterest link'><a href="#"></a></div>
+                                    <div class='linkedin link'><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <section class="our-trained-staff-member">
+                            <div class="our-trained-staff-member-photo"></div>
+                            <div class="our-trained-staff-member-name">
+                                <span class="name">Doris Jordan</span>
+                                <span class="position">Design Expert</span>
+                                <div class="links">
+                                    <div class='google link'><a href="#"></a></div>
+                                    <div class='fb link'><a href="#"></a></div>
+                                    <div class='twitter link'><a href="#"></a></div>
+                                    <div class='pinterest link'><a href="#"></a></div>
+                                    <div class='linkedin link'><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <section class="our-trained-staff-member">
+                            <div class="our-trained-staff-member-photo"></div>
+                            <div class="our-trained-staff-member-name">
+                                <span class="name">Doris Jordan</span>
+                                <span class="position">Design Expert</span>
+                                <div class="links">
+                                    <div class='google link'><a href="#"></a></div>
+                                    <div class='fb link'><a href="#"></a></div>
+                                    <div class='twitter link'><a href="#"></a></div>
+                                    <div class='pinterest link'><a href="#"></a></div>
+                                    <div class='linkedin link'><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <section class="our-trained-staff-member">
+                            <div class="our-trained-staff-member-photo"></div>
+                            <div class="our-trained-staff-member-name">
+                                <span class="name">Doris Jordan</span>
+                                <span class="position">Design Expert</span>
+                                <div class="links">
+                                    <div class='google link'><a href="#"></a></div>
+                                    <div class='fb link'><a href="#"></a></div>
+                                    <div class='twitter link'><a href="#"></a></div>
+                                    <div class='pinterest link'><a href="#"></a></div>
+                                    <div class='linkedin link'><a href="#"></a></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="our-trained-staff-slider">
+                        <div class="our-trained-staff-slider-item"></div>
+                        <div class="our-trained-staff-slider-item"></div>
+                        <div class="our-trained-staff-slider-item"></div>
+                        <div class="our-trained-staff-slider-item"></div>
+                        <div class="our-trained-staff-slider-item"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="row">
+                    <h2 class="reviews-title col-xs-12">What <span>Clients Saying</span></h2>
+                    <p class="reviews-text col-xs-12 col-lg-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus repellendus placeat, natus dolore, id illo officia ipsum corporis facere sequi debitis minus deleniti ex dolorem aliquid impedit! Ut, recusandae!</p>
+                    <div class="reviews-slider-buttons col-lg-3">
+                        <button class="btn-hoverefect slick-prev slick-arrow" aria-label="Previous" type="button"
+                            style="display: inline-block;"><</button>
+                        <button class="btn-hoverefect slick-next slick-arrow" aria-label="Next" type="button"
+                            style="display: inline-block;">></button>
+                    </div>
 
+                    <div class="col-xs-12 slick-reviews">
+                        <section class="reviews-review ">
+                            <div class="reviews-review-photo col-lg-4"></div>
+                            <div class="reviews-review-content col-lg-8">
+                                <p class="reviews-review-text col-xs-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus
+                                    deserunt ipsam. Eius pariatur porro libero magnam tempore quasi quam modi, velit ullam repellat quae sequi
+                                    distinctio eum, soluta corporis.</p>
+                                <div class="reviews-review-name">
+                                    Jane Smith <span>Manager</span>
+                                </div>
+                                <div class="reviews-review-rating">* * * * *</div>
+                            </div>
+                        </section>
+                        <section class="reviews-review ">
+                            <div class="reviews-review-photo col-lg-4"></div>
+                            <div class="reviews-review-content col-lg-8">
+                                <p class="reviews-review-text col-xs-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus
+                                    deserunt ipsam. Eius pariatur porro libero magnam tempore quasi quam modi, velit ullam repellat quae sequi
+                                    distinctio eum, soluta corporis.</p>
+                                <div class="reviews-review-name">
+                                    Jane Smith <span>Manager</span>
+                                </div>
+                                <div class="reviews-review-rating">* * * * *</div>
+                            </div>
+                        </section>
+                        <section class="reviews-review ">
+                            <div class="reviews-review-photo col-lg-4"></div>
+                            <div class="reviews-review-content col-lg-8">
+                                <p class="reviews-review-text col-xs-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus
+                                    deserunt ipsam. Eius pariatur porro libero magnam tempore quasi quam modi, velit ullam repellat quae sequi
+                                    distinctio eum, soluta corporis.</p>
+                                <div class="reviews-review-name">
+                                    Jane Smith <span>Manager</span>
+                                </div>
+                                <div class="reviews-review-rating">* * * * *</div>
+                            </div>
+                        </section>
+                        <section class="reviews-review ">
+                            <div class="reviews-review-photo col-lg-4"></div>
+                            <div class="reviews-review-content col-lg-8">
+                                <p class="reviews-review-text col-xs-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus
+                                    deserunt ipsam. Eius pariatur porro libero magnam tempore quasi quam modi, velit ullam repellat quae sequi
+                                    distinctio eum, soluta corporis.</p>
+                                <div class="reviews-review-name">
+                                    Jane Smith <span>Manager</span>
+                                </div>
+                                <div class="reviews-review-rating">* * * * *</div>
+                            </div>
+                        </section>
+                        <section class="reviews-review ">
+                            <div class="reviews-review-photo col-lg-4"></div>
+                            <div class="reviews-review-content col-lg-8">
+                                <p class="reviews-review-text col-xs-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus
+                                    deserunt ipsam. Eius pariatur porro libero magnam tempore quasi quam modi, velit ullam repellat quae sequi
+                                    distinctio eum, soluta corporis.</p>
+                                <div class="reviews-review-name">
+                                    Jane Smith <span>Manager</span>
+                                </div>
+                                <div class="reviews-review-rating">* * * * *</div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="faq-content col-xs-12 col-md-6">
+                        <h2 class="faq-title">
+                            Frequently <span>Asked Questions</span>
+                        </h2>
+                        <p class="faq-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown of type and scrambled it to make a type
+                            specimen book.</p>
+                        <div class="faq-item">
+                            <div class="faq-item-question">
+                                1. Can i consult about caring for Plants?
+                                <span class="faq-item-plus-minus">+</span>
+                            </div>
+                        
+                            <div class="faq-item-answer">Lorem ipsum dolor sit amet, elit & consectetur adipiscing elit. Integer adipiscing erat
+                                eget risus sollicitudin pellentes queet non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis
+                                accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Name ultrices scelerisque tristique dolor vitae tincidunt. Aenean quis massa
+                                uada mi elementum elementum. Nec sapien convallis vulputate rhoncus vel dui.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item-question">
+                                2. Can i consult about caring for Plants?
+                                <span class="faq-item-plus-minus">+</span>
+                            </div>
+                            <div class="faq-item-answer">Lorem ipsum dolor sit amet, elit & consectetur adipiscing elit. Integer adipiscing erat
+                                eget risus sollicitudin pellentes queet non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis
+                                accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Name ultrices scelerisque tristique dolor vitae tincidunt. Aenean quis massa
+                                uada mi elementum elementum. Nec sapien convallis vulputate rhoncus vel dui.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item-question">
+                                3. Can i consult about caring for Plants?
+                                <span class="faq-item-plus-minus">+</span>
+                            </div>
+                            <div class="faq-item-answer">Lorem ipsum dolor sit amet, elit & consectetur adipiscing elit. Integer adipiscing erat
+                                eget risus sollicitudin pellentes queet non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis
+                                accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Name ultrices scelerisque tristique dolor vitae tincidunt. Aenean quis massa
+                                uada mi elementum elementum. Nec sapien convallis vulputate rhoncus vel dui.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item-question">
+                                4. Can i consult about caring for Plants?
+                                <span class="faq-item-plus-minus">+</span>
+                            </div>
+                            <div class="faq-item-answer">Lorem ipsum dolor sit amet, elit & consectetur adipiscing elit. Integer adipiscing erat
+                                eget risus sollicitudin pellentes queet non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis
+                                accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Name ultrices scelerisque tristique dolor vitae tincidunt. Aenean quis massa
+                                uada mi elementum elementum. Nec sapien convallis vulputate rhoncus vel dui.</div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-item-question">
+                                5. Can i consult about caring for Plants?
+                                <span class="faq-item-plus-minus">+</span>
+                            </div>
+                            <div class="faq-item-answer">Lorem ipsum dolor sit amet, elit & consectetur adipiscing elit. Integer adipiscing erat
+                                eget risus sollicitudin pellentes queet non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis
+                                accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit. Name ultrices scelerisque tristique dolor vitae tincidunt. Aenean quis massa
+                                uada mi elementum elementum. Nec sapien convallis vulputate rhoncus vel dui.</div>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-image col-md-6"></div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="our-insights">
+            <div class="container">
+                <div class="row">
+                    <h2 class="our-insights-title">Our <span>Insights & Articles</span></h2>
+                    <p class="our-insights-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis veniam eos quam exercitationem odit labore et ullam? Aspernatur ratione beatae saepe tempora, mollitia optio eveniet eum libero, omnis quibusdam architecto?</p>
+                    <div class="our-insights-list swiper">
+                        <div class="swiper-wrapper">
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4  swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?</p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?</p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?</p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                </p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                </p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                </p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                            <div class="our-insights-item col-xs-12 col-md-6 col-lg-4 swiper-slide">
+                                <div class="our-insights-item-topic">Planting</div>
+                                <h3 class="our-insights-item-title">Ask The Agronomists: Lawncare
+                                    Tips From The Experts</h3>
+                                <p class="our-insights-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum illum neque
+                                    consectetur ratione eaque qui distinctio cum? Ratione assumenda laborum dolore pariatur nulla sunt. Odit
+                                    quae
+                                    molestiae quos ducimus illum?
+                                </p>
+                                <div class="our-insights-item-line"></div>
+                                <div class="our-insights-item-date">SEP 6 - 2021</div>
+                                <div class="our-insights-item-autor">
+                                    <img src="/project-2/images/Main/our-insights/Admin.png" alt="">
+                                    <span>Admin</span>
+                                </div>
+                            </div>   
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-scrollbar"></div>
+                    <div class="our-insights-logotab row">
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo1.svg" alt=""></div>
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo2.svg" alt=""></div>
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo3.svg" alt=""></div>
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo1.svg" alt=""></div>
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo2.svg" alt=""></div>
+                        <div class="our-insights-logo col-xs-6 col-md-3 col-lg-2"><img src="./images/Main/our-insights/logo3.svg" alt=""></div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="get-quate">
+                <div class="get-quate-text">We Have <span>Solutions</span> For Your <span>Garden.</span></div>
+                <div class="get-quate-btn">Get A Quate</div>
+            </div>
+            <div class="row">
+                <section class="footer-subscribe">
+                    <h2 class="footer-subscribe-title footer-titles">Subscribe To Newsletter</h2>
+                    <p class="footer-subscribe-text">Lorem ipsum dolor sit amet, consectetur ot adipiscing elit. Integer adipiscing erat eget risus to the sollicitudin
+                    pellentes queet non erat. Maecenas nibh dolor.</p>
+                    <div class="footer-subscribe-div">
+                        <input type="text" placeholder="E-mail">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="footer-subscribe-social">
+                        <a href="" class="footer-subscribe-social-item">
+                            <img src="" alt="">
+                        </a>
+                        <a href="" class="footer-subscribe-social-item">
+                            <img src="" alt="">
+                        </a>
+                        <a href="" class="footer-subscribe-social-item">
+                            <img src="" alt="">
+                        </a>
+                        <a href="" class="footer-subscribe-social-item">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </section>
+                <section class="footer-contacts ">
+                    <h2 class="footer-titles">Contacts</h2>
+                    <a class='adress' href="">27 Division St, New York, NY 10002, USA</a>
+                    <a class='phone' href="">+01 1123456789, +01 1123456789</a>
+                    <a href="" class="mail">Solarpenal@gmail.Com</a>
+                </section>
+                <section class="footer-links">
+                    <h2 class="footer-titles">Useful links</h2>
+                    <ul class="footer-links-list">
+                        <li class="footer-links-item col-xs-6"><a href="">> Home</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> About Us</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> Services</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> Projects</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> Blog</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> FAQ</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> Contact Us</a></li>
+                        <li class="footer-links-item col-xs-6"><a href="">> Thank you</a></li>
+                    </ul>
+                </section>
+                <section class="footer-popular">
+                    <h2 class="footer-titles">Popular services</h2>
+                    <ul class="footer-popular-list">
+                        <li class="footer-popular-item"><a href="">Tree Planting</a></li>
+                        <li class="footer-popular-item"><a href="">Grass Cutting</a></li>
+                        <li class="footer-popular-item"><a href="">Pests, Weeds Control</a></li>
+                        <li class="footer-popular-item"><a href="">Project</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright-and-terms">
+                <div class="copiright">© Copyright Plant Store 2021-22. All right reserved.
+                Design by Themadbrains</div>
+                <div class="terms">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Sitemap</a>
+                    <a href="">Terms of Use</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/swiper@9.0.2/swiper-bundle.min.js
+    "></script>
+    <script src="app.js"></script>
 </body>
 </html>

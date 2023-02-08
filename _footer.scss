@@ -1,0 +1,242 @@
+.footer {
+    background-color: #0C4B35;
+    .container {
+        padding: 140px 15px 40px 15px;
+        position: relative;
+    }
+    .get-quate {
+        position: absolute;
+        top: -102px;
+        width: calc(100% - 60px);
+        margin: auto 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;
+        row-gap: 50px;
+        background: #D9F1E0;
+        border-radius: 5px;
+        .get-quate-text {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #212529;
+            span {
+                color: #00730C;
+            }
+        }
+        .get-quate-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 29px;
+            gap: 10px;
+            background: #00730C;
+            border-radius: 5px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            border: 1px solid #00730C;
+        }
+        .get-quate-btn:hover {
+            color: #00730C;
+            background-color: #fff;
+        }
+    }
+    .row {
+        row-gap: 40px;
+        flex-direction: column;
+    }
+    .footer-titles {
+        text-align: left;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: white;
+    }
+    .footer-subscribe{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        .footer-subscribe-text {
+            text-align: left;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+        }
+        .footer-subscribe-div {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid white;
+            input {
+                background: none;
+                border: none;
+                color: white;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                textarea {
+                    outline: none;
+                    border: none;
+
+                }
+            }
+            button {
+                background: none;
+                border: none;
+                color: white;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+        .footer-subscribe-social {
+
+        }
+    }
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        .footer-titles {
+            padding-bottom: 5px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+        }
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    
+        .footer-titles {
+            padding-bottom: 5px;
+        }
+        .footer-links-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+        }
+    }
+    .footer-popular {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;    
+        .footer-titles {
+            padding-bottom: 5px;
+        }
+        .footer-popular-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: white;
+        }
+    }
+    .copyright-and-terms {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 15px 30px;
+        margin-top: 40px;
+        border-top: 1px solid white;
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        .terms {
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            text-decoration: none;
+            font-family: 'Nunito';
+            font-style: normal;
+            color: white;
+        }
+    }
+}
+@media (min-width: 1440px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        
+        .get-quate {
+            top: -60px;
+            flex-direction: row;
+            justify-content: space-around;
+            .get-quate-text {
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 61px;
+                }
+            
+            .get-quate-btn {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                color: #D9F1E0;
+            }
+        }
+        .row {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 100px;
+        }
+        .footer-subscribe {
+            flex: 0 0 ;
+        }
+        .footer-contacts {
+            flex: 0.5 0 ;
+        }
+        .footer-popular {
+            flex: 0.5 1 ;
+        }
+        .footer-links {
+            flex: 1 0 ;
+        }
+        .footer-titles {
+            margin-bottom: 70px;
+        }
+        .copyright-and-terms {
+            flex-direction: row;
+            justify-content: space-around;
+            .terms {
+                gap: 30px;
+            }
+        }
+    }
+}
