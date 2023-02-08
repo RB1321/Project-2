@@ -88,6 +88,8 @@ header .language a:hover img {
 }
 .navbar .call-button {
   margin-right: 40px;
+  border: solid 1px #00730C;
+  border-radius: 15px;
 }
 .navbar .call-button .call {
   text-decoration: none;
@@ -101,6 +103,16 @@ header .language a:hover img {
 }
 .navbar .call-button .call .call-div .call-div-text {
   display: none;
+}
+.navbar .call-button .call:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #00730C;
+}
+.navbar .call-button .call:hover .call-div {
+  cursor: pointer;
+  background-color: white;
+  color: #00730C;
 }
 .navbar .menu-cancel-button {
   position: relative;

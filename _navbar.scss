@@ -1,3 +1,24 @@
+// .btn-hoverefect {
+//   background-color: #00730C;
+//   color: white;
+//   align-self: center;
+//   width: 167px;
+//   height: 40px;
+//   border-radius: 5px;
+//   border: solid 1px #00730C;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 20px;
+//   font-family: 'Nunito';
+//   font-style: normal;
+// }
+
+// .btn-hoverefect:hover {
+//     cursor: pointer;
+//     background-color: white;
+//     color: #00730C;
+
+// }
 .navbar {
     position: relative;
     display: flex;
@@ -23,9 +44,12 @@
     }
     .call-button {
         margin-right: 40px;
+        border: solid 1px #00730C;
+        border-radius: 15px;
         .call {
             text-decoration: none;
             color: white;
+            
             .call-div {
                 display: flex;
                 align-items: center;
@@ -35,6 +59,17 @@
                     display: none;
                 }
             }
+            
+        }
+        .call:hover {
+            cursor: pointer;
+            background-color: white;
+            color: #00730C;
+        }
+        .call:hover .call-div {
+            cursor: pointer;
+            background-color: white;
+            color: #00730C;
         }
     }
     .menu-cancel-button {
