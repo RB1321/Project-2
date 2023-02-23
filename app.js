@@ -5,8 +5,6 @@ let questionFaq = document.querySelectorAll(".faq-item-question");
 let answerFaq = document.querySelectorAll(".faq-item-answer");
 let faqSection = document.querySelector(".faq");
 let plusMinusFaq = document.querySelectorAll(".faq-item-plus-minus");
-console.log(plusMinusFaq);
-
 function hideAnswerFaq() {
   answerFaq.forEach((item) => {
     item.classList.add("hide");
@@ -29,11 +27,13 @@ faqSection.addEventListener("click", function (e) {
         answerFaq[i].classList.contains("hide")
       ) {
         showAnswerFaq(i);
+        plusMinusFaq[i].textContent = "-";
       } else if (
         (item === target || plusMinusFaq[i] === target) &&
         !answerFaq[i].classList.contains("hide")
       ) {
         answerFaq[i].classList.add("hide");
+        plusMinusFaq[i].textContent = "+";
       }
     });
   }

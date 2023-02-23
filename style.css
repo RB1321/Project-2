@@ -277,7 +277,7 @@ main .hide {
   flex-wrap: wrap;
 }
 .introduction .introduction-image {
-  background: url(./images/Main/introduction/Img.svg);
+  background: url(./images/Main/introduction/Img.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto 100%;
@@ -649,7 +649,7 @@ main .hide {
   bottom: 36.58%;
 }
 .aboutUs .aboutUs-figure .aboutUs-figure-mainImg {
-  background: url(./images/Main/AboutUs/bg-img1.svg);
+  background: url(./images/Main/AboutUs/bg-img1.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto 100%;
@@ -661,7 +661,7 @@ main .hide {
 }
 .aboutUs .aboutUs-figure .aboutUs-figure-secondaryImg {
   position: absolute;
-  background: url(./images/Main/AboutUs/bg-img2.svg);
+  background: url(./images/Main/AboutUs/bg-img2.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto 100%;
@@ -1492,6 +1492,7 @@ h2 span {
   background: #FFF8F1;
   padding: 12px 20px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .faq .faq-item-question span {
   font-size: 28px;
